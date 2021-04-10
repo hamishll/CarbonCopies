@@ -96,6 +96,15 @@ video {
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 7.5px;
+  animation: slideshow 6s infinite;
+}
+@keyframes slideshow {
+  0%,20%,80%,100% {
+    background-image: url("../trees/0001_512x512.png");
+  }
+  30%, 70% {
+    background-image: url("../trees/0002_512x512.png");
+  }
 }
 .card-content {
   padding: 5px;

@@ -1,6 +1,6 @@
 var audio = document.getElementsByTagName("audio")[0];
 var about = document.getElementsByTagName("about")[0];
-var aboutBtn = document.getElementbyId("about")[0];
+var aboutBtn = document.getElementById("about")[0];
 var body = document.getElementsByTagName("body")[0];
 var interacted = false;
 
@@ -27,6 +27,3 @@ function toggleAbout() {
     }
     
 }
-
-
-
