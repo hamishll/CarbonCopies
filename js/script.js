@@ -18,15 +18,15 @@ function aboutInactive() {
     about.style.opacity = 0;
 }
 
-// function toggleAbout() {
-//     if (about.style.opacity == 0) {
-//         about.style.opacity = 1;
-//     }
-//     else {
-//         about.style.opacity = 0;
-//     }
+function toggleAbout() {
+    if (about.style.opacity == 0) {
+        about.style.opacity = 1;
+    }
+    else {
+        about.style.opacity = 0;
+    }
     
-// }
+}
 
 
 
