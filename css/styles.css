@@ -132,15 +132,21 @@ video {
   width: 250px;
 
 }
+.card-l2 {
+  font-size: 0.5rem;
+  font-weight: 700;
+  color: black;
+  position: absolute;
+  bottom: 50px;
+  width: 250px;
+}
 .card-l3 {
   font-size: 0.5rem;
   font-weight: 700;
   color: black;
-  /* letter-spacing: 2px; */
   position: absolute;
   bottom: 40px;
   width: 250px;
-
 }
 .nav {
   display: flex;
