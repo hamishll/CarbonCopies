@@ -97,6 +97,7 @@ video {
   background-repeat: no-repeat;
   border-radius: 7.5px;
   transition: 0.4s;
+  box-shadow: rgba(0, 0, 0, 0.20) 0px 0px 5px inset;
   /* animation: slideshow 6s infinite; */
 }
 @keyframes slideshow {
