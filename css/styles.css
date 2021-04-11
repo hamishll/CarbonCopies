@@ -183,3 +183,18 @@ about span {
 button:focus {
   outline: 0 !important;
 }
+
+vr {
+  background-image: url("../img/grass.png");
+  background-repeat: repeat;
+  position: relative;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plot {
+  width: 32px;
+  height: 32px;
+}

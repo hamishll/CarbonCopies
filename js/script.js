@@ -27,3 +27,10 @@ function toggleAbout() {
     }
     
 }
+
+var vr = document.getElementById("vr");
+
+function renderPlot() {
+    plot = 
+    vr.appendChild(plot);
+}
