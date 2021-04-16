@@ -27,7 +27,7 @@ function toggleAbout() {
 
 var previewImg = document.getElementById("preview");
 var previewNum = document.getElementById("previewnum");
-var previews = ["0001","0002","0005","0007","0008"];
+var previews = ["021","060","071","037","011"];
 var i = 0;
 function changeImage() {
     previewImg.style.backgroundImage = "url(trees/"+previews[i]+"_512x512.png)"

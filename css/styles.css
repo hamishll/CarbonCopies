@@ -92,7 +92,7 @@ video {
   width: 250px;
   height: 250px;
   background-color: #dbedff;
-  background-image: url("../trees/0001_512x512.png");
+  background-image: url("../trees/011_512x512.png");
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 7.5px;
@@ -100,7 +100,7 @@ video {
   box-shadow: rgba(0, 0, 0, 0.20) 0px 0px 5px inset;
   /* animation: slideshow 6s infinite; */
 }
-@keyframes slideshow {
+/* @keyframes slideshow {
   0%,20%,90% {
     background-image: url("../trees/0001_512x512.png");
   }
@@ -110,7 +110,7 @@ video {
   60%, 80% {
     background-image: url("../trees/0006_512x512.png");
   }
-}
+} */
 .card-content {
   text-align:left;
 }
