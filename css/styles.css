@@ -194,7 +194,7 @@ about {
   top: 80px;
   left: 40px;
   width: 85%;
-  max-width:400px;
+  max-width: 330px;
   color: white;
   transition: 1s;
   opacity: 0;
@@ -220,4 +220,10 @@ vr {
   width: 32px;
   height: 32px;
   background-size: contain;
+}
+a {
+  text-decoration: none;
+  background: linear-gradient(110.78deg,#76E650 -1.13%,#F9D649 15.22%,#F08E35 32.09%,#EC5157 48.96%,#FF18BD 67.94%,#1A4BFF 85.34%,#62D8F9 99.57%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
